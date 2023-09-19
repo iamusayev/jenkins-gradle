@@ -25,5 +25,9 @@ pipeline {
                 }
             }
         }
+        stage("Hey"){
+            steps {
+                echo "Hey"
+            }
     }
 }
