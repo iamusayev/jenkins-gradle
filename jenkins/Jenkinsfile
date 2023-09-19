@@ -29,5 +29,9 @@ pipeline {
             steps {
                 echo "Hey"
             }
+        stage("Heeey"){
+            steps {
+                echo "HEEEY BRO"
+            }
     }
 }
